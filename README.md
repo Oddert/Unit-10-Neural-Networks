@@ -20,6 +20,7 @@ File Structure:
 |  |  -matrix.js  (A custom matrix library for linear algebra)
 |  |  -nn.js      (The actual Neural Network file)
 |  |  -sketch.js  (Loads in index.html, runs with p5.js)
+|  README.md
 ```
 
 ## oddert.github.io/
