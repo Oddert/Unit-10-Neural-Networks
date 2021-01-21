@@ -1,0 +1,23 @@
+{
+  "name": "unit_10_neural_nets",
+  "version": "1.0.0",
+  "description": "A neural network library made from The Coding Train (Daniel Shiffman) video series as part of unit 10 research (https://github.com/shiffman/)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oddert/Unit-10-Neural-Networks.git"
+  },
+  "author": "Robyn F H Veitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oddert/Unit-10-Neural-Networks/issues"
+  },
+  "homepage": "https://github.com/Oddert/Unit-10-Neural-Networks#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
