@@ -4,7 +4,8 @@
   "description": "A neural network library made from The Coding Train (Daniel Shiffman) video series as part of unit 10 research (https://github.com/shiffman/)",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

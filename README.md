@@ -1,7 +1,7 @@
 # Robyn Veitch Unit 10
 
 ## Neural Network Library
-### This library is based off of a series by The Coding Train (https://github.com/shiffman) (YouTube: https://www.youtube.com/user/shiffman/videos)
+### This library is based off of a series by [The Coding Train](https://github.com/shiffman). See [Coding Train Youtube Channel](https://www.youtube.com/user/shiffman/videos) for more
 
 ---
 
@@ -29,3 +29,22 @@ File Structure:
 ## robyn@robynveitch.com/
 <!-- ## oddert.github.io/
 ## r.veitch0420171@arts.ac.uk -->
+
+---
+
+## Live Demo
+[https://glow-steep-structure.glitch.me/](https://glow-steep-structure.glitch.me/)
+
+## Installation
+```
+$ git clone https://github.com/Oddert/Unit-10-Neural-Networks.git
+$ cd Unit-10-Neural-Networks
+$ npm i
+$ npm start
+```
+
+## Scripts
+| script | command                                        | action
+|--------|------------------------------------------------|------------------------------------------------|
+| start  | node app.js                                    | runs the server                                |
+| dev | nodemon app.js                                 | runs the server with auto restart              |
