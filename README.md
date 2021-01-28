@@ -15,13 +15,17 @@ Later it will be likely replaced with a library like TensorFlow or PyTorch and m
 ```
 File Structure:
 /
+|  colour_predictor.html (decides whether to use black or white text based on background)
+|  xor.html (visualises the XOR problem being solved (sometimes))
 |  nn_library/
-|  |  -index.html (testing file in js console)
-|  |  -matrix.js  (A custom matrix library for linear algebra)
-|  |  -nn.js      (The actual Neural Network file)
-|  |  -sketch.js  (Loads in index.html, runs with p5.js)
+|  |  index.html (testing file in js console)
+|  |  matrix.js  (A custom matrix library for linear algebra)
+|  |  nn.js      (The actual Neural Network file)
+|  |  sketch.js  (Loads in index.html, runs with p5.js)
 |  README.md
 ```
 
-## oddert.github.io/
-## r.veitch0420171@arts.ac.uk
+## robynveitch.com/
+## robyn@robynveitch.com/
+<!-- ## oddert.github.io/
+## r.veitch0420171@arts.ac.uk -->

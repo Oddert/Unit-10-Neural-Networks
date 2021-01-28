@@ -20,6 +20,8 @@ const training_data = [
   },
 ]
 
+var nn
+
 function setup () {
   // let a = new Matrix(2,2)
   // a.randomise()
@@ -36,7 +38,7 @@ function setup () {
   // let output = nn.feedforward(input)
   // console.log(output)
 
-  const nn = new NeuralNetwork(2, 2, 1)
+  nn = new NeuralNetwork(2, 2, 1)
 
   for (let i=0; i<50000; i++) {
     let data = random(training_data)
@@ -44,23 +46,25 @@ function setup () {
   }
 
   nn.train([0,1], [0])
+  lr_slider = createSlider(0.01, .5, .1, .01)
   // console.log(nn.feedforward([0,1]))
 
   console.log(nn.feedforward([0,0]))
   console.log(nn.feedforward([0,1]))
   console.log(nn.feedforward([1,0]))
   console.log(nn.feedforward([1,1]))
-
-
 }
 
-var nn;
 
 function setupX () {
   createCanvas(400, 400)
   nn = new NeuralNetwork(2, 4, 1)
   lr_slider = createSlider(0.01, .5, .1, .01)
 }
+
+// function setup () {
+//   setupX()
+// }
 
 function draw () {
   background(0)

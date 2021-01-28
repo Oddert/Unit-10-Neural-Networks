@@ -6,7 +6,9 @@ const express = require('express')
 
 const PORT = process.env.PORT || 3000
 
-app.use(express.static(path.join(__dirname, '*')))
+app.use(express.static(path.join(__dirname, '/')))
+
+app.route('/').get((req, res) => res.sendFile(path.join(__dirname, 'index.html')))
 
 const cb = () => console.log(
   `${new Date().toLocaleTimeString('en-GB')}: Server initialised on PORT [${PORT}]...`
